@@ -6,4 +6,4 @@
 
 当协议字段变化时，应同步更新本目录中的类型，并让依赖方通过测试暴露不兼容变更。
 
-第一阶段 `SNID`、`DAO`、`Task`、`Evidence`、`Payment`、`ReputationRecord`、`Dispute`、`ConversionEligibility`、`IndexState` 等共享类型见 [第一阶段最小可运行闭环设计](../../apps/web/docs/第一阶段最小可运行闭环设计.md)。
+第一阶段 `SNID`、`DAO`、`Task`、`Evidence`、`Payment`、`TokenLot`、`TokenTransfer`、`ReputationRecord`、`Dispute`、`ConversionEligibility`、`IndexState` 等共享类型见 [第一阶段最小可运行闭环设计](../../apps/web/docs/第一阶段最小可运行闭环设计.md)。
