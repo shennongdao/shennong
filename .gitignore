@@ -1,0 +1,44 @@
+# Rust
+/target/
+Cargo.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 环境变量（包含 API 密钥）
+.env
+.env.*
+
+# 数据
+/data/
+*.db
+*.sqlite
+
+# Docker
+docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 钱包文件
+wallet.json
+*.jwk
+config/cert.pem
+config/cert-key.pem
+
+.claude/worktrees/
+python/.coverage
